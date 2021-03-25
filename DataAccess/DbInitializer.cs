@@ -31,9 +31,9 @@ namespace DataAccess
             if (!context.Owners.Any())
             {
                 context.Owners.AddRange(new Owner[] {
-                    new Owner() { UserId = 1 , CatId = 1 },
-                    new Owner() { UserId = 2 , CatId = 3 },
-                    new Owner() { UserId = 2 , CatId = 4 }
+                    new Owner() { UserId = 1 , DogId = 1 },
+                    new Owner() { UserId = 2 , DogId = 3 },
+                    new Owner() { UserId = 2 , DogId = 4 }
                 });
             }
 
